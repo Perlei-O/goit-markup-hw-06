@@ -417,17 +417,53 @@
         <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
         <form action="#" class="modal-form">
             <div class="modal-field">
-            <label for="user-name">Имя</label>
-           <input type="text" name="user-name" id="user-name" class="modal-input">
+            <label for="user-name" class="input-label">Имя</label>
+           <span class="input-wrapper">
+            <input 
+           type="text" 
+           name="user-name" 
+           id="user-name" 
+           class="modal-input">
+            <svg class="input-icon" height="12" width="12">
+                <use href="./images/sprite.svg#icon-men"></use>
+            </svg>
+            </span>
+        </div>
+            <div class="modal-field">
+                <label for="user-tel" class="input-label">Телефон</label>
+                <span class="input-wrapper">
+                <input 
+                type="tel" 
+                name="user-tel" 
+                id="user-tel" 
+                class="modal-input">
+                <svg class="input-icon" height="13" width="13">
+                    <use href="./images/sprite.svg#icon-tel"></use>
+                </svg>
+                </span>
             </div>
             <div class="modal-field">
-                <label for="user-tel">Телефон</label>
+                <label for="user-email" class="input-label" >Почта</label>
+                <span class="input-wrapper">
+                <input 
+                type="email" 
+                name="user-email" 
+                id="user-email" 
+                class="modal-input">
+                <svg class="input-icon" height="12" width="15">
+                    <use href="./images/sprite.svg#icon-mailmodal"></use>
+                </svg>
+                </span>
+            </div>
+            <div class="modal-field">
+                <label for="user-tel" class="input-label">Телефон</label>
                 <input type="tel" name="user-tel" id="user-tel" class="modal-input">
             </div>
             <div class="modal-field">
-                <label for="user-email">Почта</label>
-                <input type="email" name="user-email" id="user-email" class="modal-input">
+                <label for="user-text" class="input-label">Комментарий</label>
+                <textarea name="user-text" id="user-text" placeholder="Введите текст" class="modal-text-input"></textarea>
             </div>
+            <button type="submit" class="btn modal-btn" >Отправить</button>
         </form>
     </div>
 </div>
