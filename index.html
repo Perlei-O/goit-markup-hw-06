@@ -456,13 +456,16 @@
                 </span>
             </div>
             <div class="modal-field">
-                <label for="user-tel" class="input-label">Телефон</label>
-                <input type="tel" name="user-tel" id="user-tel" class="modal-input">
-            </div>
-            <div class="modal-field">
                 <label for="user-text" class="input-label">Комментарий</label>
                 <textarea name="user-text" id="user-text" placeholder="Введите текст" class="modal-text-input"></textarea>
             </div>
+            <input type="checkbox" id="modal-checkbox" class="modal-checkbox visually-hidden">
+            <label for="modal-checkbox" class="check-text"> 
+                <span>
+                <svg class="check-icon" height="8" width="11">
+                    <use href="./images/sprite.svg#icon-check"></use>
+                </svg>
+            </span> Соглашаюсь с рассылкой и принимаю <a class="check-link" href="">Условия договора</a> </label>
             <button type="submit" class="btn modal-btn" >Отправить</button>
         </form>
     </div>
