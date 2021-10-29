@@ -14,13 +14,10 @@
 
 .hero-title {
   text-align: center;
-  font-weight: 900;
   max-width: 696px;
   font-family: Roboto;
   font-style: normal;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
+  @include font(44px, 900, 1.36, 0.06em);
   text-transform: uppercase;
   color: var(--primary-title-color);
 }

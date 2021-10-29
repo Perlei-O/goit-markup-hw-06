@@ -7,11 +7,9 @@
   font-family: Roboto;
   font-style: normal;
   color: #212121;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
+
+  @include font(36px, bold, 1.16, 0.03em);
   text-align: center;
-  letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
 

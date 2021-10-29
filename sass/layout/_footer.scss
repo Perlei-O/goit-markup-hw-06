@@ -13,20 +13,14 @@
 .footer-web {
   font-family: Raleway;
   font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  @include font(26px, bold, 1.19, 0.03em);
   color: var(--accent-color);
 }
 
 .footer-studio {
   font-family: Raleway;
   font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  @include font(26px, bold, 1.19, 0.03em);
   color: var(--primary-title-color);
 }
 
@@ -45,10 +39,7 @@
 .address {
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include font(14px, normal, 1.71, 0.03em);
   color: var(--primary-title-color);
 }
 
@@ -59,10 +50,7 @@
 .footer-contacts {
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include font(14px, normal, 1.71, 0.03em);
   color: var(--third-text-color);
 }
 
@@ -122,11 +110,8 @@
 
 .footer-submit-text {
   font-family: Roboto;
-  font-weight: 700;
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.14px;
-  letter-spacing: 0.03em;
+  @include font(14px, 700, 1.14, 0.03em);
   text-transform: uppercase;
   color: var(--primary-title-color);
   margin-bottom: 20px;
