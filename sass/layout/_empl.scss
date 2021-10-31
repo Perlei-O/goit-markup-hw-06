@@ -4,14 +4,14 @@
   padding-bottom: 94px;
 }
 
-.empl-list {
+.employee__list {
   font-family: Roboto;
   font-style: normal;
   @include font(16px, 500, 1.18, 0.03em);
   color: var(--secondary-title-color);
 }
 
-.empl-item {
+.employee__item {
   font-family: Roboto;
   font-style: normal;
   @include font(16px, normal, 1.18, 0.03em);
@@ -22,7 +22,7 @@
   display: flex;
 }
 
-.empl-element {
+.employee__element {
   width: 270px;
   margin-right: 30px;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -34,16 +34,16 @@
   }
 }
 
-.team {
+.employee__team {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.empl-list {
+.employee__list {
   text-align: center;
 }
 
-.empl-item {
+.employee__item {
   text-align: center;
   margin-top: 10px;
 }
